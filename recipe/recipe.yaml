@@ -1,11 +1,8 @@
-schema_version: 1
-
 context:
-  name: kondo
   version: 0.8
 
 package:
-  name: ${{ name|lower }}
+  name: kondo
   version: ${{ version }}
 
 source:
@@ -38,4 +35,3 @@ about:
 extra:
   recipe-maintainers:
     - danielnachun
-
