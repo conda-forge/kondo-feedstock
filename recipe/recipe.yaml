@@ -1,5 +1,5 @@
 context:
-  version: 0.8
+  version: "0.9"
 
 package:
   name: kondo
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/tbillington/kondo/archive/v${{ version }}.tar.gz
-  sha256: 4054c90e679a379a735b3166df4633fb86a33725175ebe23d7b659dcb7155b26
+  sha256: 188c577f1d21d783cd2b4b43a5cbae5ffe8b085e5773e10846af55968ddd50c4
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
